@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Central da Marca · BSCA</title>
+<meta name="description" content="Central da Marca da Associação Brasileira de Cafés Especiais (BSCA): logos, cores, tipografia, usos e downloads.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+ --verde:#407850; --verde-d:#2f5a3c; --amarelo:#F8A840; --marrom:#604028;
+ --azul:#0048A8; --ink:#221a12; --muted:#6b6257; --bg:#faf7f2; --card:#ffffff;
+ --line:#ece5da; --radius:16px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Poppins',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-weight:700;line-height:1.15;letter-spacing:-.01em}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+
+/* Header */
+header{position:sticky;top:0;z-index:50;background:rgba(250,247,242,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:18px;padding:12px 22px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.02em}
+.brand img{height:34px}
+nav.top{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}
+nav.top a{padding:8px 12px;border-radius:999px;font-size:14px;font-weight:500;color:var(--muted);text-decoration:none;transition:.15s}
+nav.top a:hover{background:#fff;color:var(--verde)}
+.menu-btn{display:none;margin-left:auto;border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px 12px;font-size:20px;cursor:pointer}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--verde) 0%,var(--verde-d) 100%);color:#fff}
+.hero-inner{max-width:1180px;margin:0 auto;padding:76px 22px 84px;position:relative;z-index:2}
+.hero .eyebrow{color:var(--amarelo);font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:13px;margin:0 0 14px}
+.hero h1{font-size:clamp(34px,5vw,58px);margin:0 0 18px;max-width:16ch}
+.hero p.sub{font-size:clamp(16px,2vw,20px);max-width:56ch;color:#eaf3ec;margin:0 0 30px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.diamond{position:absolute;width:520px;height:520px;right:-120px;top:-90px;background:var(--amarelo);transform:rotate(45deg);border-radius:60px;opacity:.16}
+.diamond.two{width:300px;height:300px;right:180px;bottom:-160px;top:auto;background:#fff;opacity:.08}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--amarelo);color:var(--marrom);font-weight:600;text-decoration:none;padding:13px 22px;border-radius:999px;border:none;transition:.15s;font-size:15px}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(0,0,0,.18)}
+.btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.6)}
+.btn.ghost:hover{background:rgba(255,255,255,.12)}
+
+/* Sections */
+main{max-width:1180px;margin:0 auto;padding:0 22px}
+.sec{padding:64px 0;border-bottom:1px solid var(--line)}
+.sec-head{max-width:70ch;margin-bottom:26px}
+.eyebrow{color:var(--verde);font-weight:600;letter-spacing:.12em;text-transform:uppercase;font-size:12px;margin:0 0 8px}
+.sec h2{font-size:clamp(26px,3.4vw,38px);margin:0 0 12px}
+.lead{color:var(--muted);font-size:17px;margin:0 0 20px}
+.grp{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--marrom);margin:30px 0 14px;font-weight:600}
+
+/* Logo grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+.card{margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:.15s}
+.card:hover{box-shadow:0 10px 26px rgba(45,90,60,.10);transform:translateY(-3px)}
+.tile{display:flex;align-items:center;justify-content:center;padding:30px;min-height:150px;
+ background-color:#f6f2ec;background-image:linear-gradient(45deg,#eee7dc 25%,transparent 25%),linear-gradient(-45deg,#eee7dc 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#eee7dc 75%),linear-gradient(-45deg,transparent 75%,#eee7dc 75%);background-size:18px 18px;background-position:0 0,0 9px,9px -9px,-9px 0}
+.tile img{max-height:92px;width:auto}
+.tile.dark{background-color:#2f5a3c;background-image:linear-gradient(45deg,#356245 25%,transparent 25%),linear-gradient(-45deg,#356245 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#356245 75%),linear-gradient(-45deg,transparent 75%,#356245 75%)}
+figcaption{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px;font-size:14px}
+.cap{font-weight:500}
+.dl{font-size:12px;font-weight:600;color:var(--verde);text-decoration:none;border:1px solid var(--line);padding:5px 10px;border-radius:999px;white-space:nowrap;transition:.15s}
+.dl:hover{background:var(--verde);color:#fff;border-color:var(--verde)}
+
+/* Colors */
+.sws{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.sw{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.chip{height:96px}
+.sw-body{padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.sw-body strong{font-size:15px}
+.sw-body code{font-size:14px;color:var(--verde);font-weight:600;margin:2px 0}
+.sw-body span{font-size:12.5px;color:var(--muted)}
+
+/* Typography specimen */
+.type-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.type-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+.type-card .big{font-size:70px;line-height:1;font-weight:800;margin:0 0 10px}
+.type-card .name{font-weight:600;margin:0 0 4px}
+.type-card p.note{color:var(--muted);font-size:14px;margin:6px 0 0}
+.font-poppins{font-family:'Poppins',sans-serif}
+
+/* Don'ts */
+.donts{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.dont{margin:0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.dont .tile{min-height:130px;overflow:hidden}
+.dont .tile img{max-height:70px}
+.dont figcaption{color:#b23b3b;font-weight:500;justify-content:flex-start}
+.rules{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:8px}
+.rule{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--verde);border-radius:12px;padding:14px 16px;font-size:14.5px}
+.rule.no{border-left-color:#b23b3b}
+
+/* Downloads */
+.dl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.pack{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;display:flex;flex-direction:column;gap:12px}
+.pack h4{margin:0;font-size:17px}
+.pack p{margin:0;color:var(--muted);font-size:14px;flex:1}
+.docs{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-top:18px}
+.doc{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;font-size:14px;transition:.15s}
+.doc:hover{border-color:var(--verde);box-shadow:0 6px 16px rgba(45,90,60,.08)}
+.doc-ico{background:var(--marrom);color:#fff;font-size:11px;font-weight:700;padding:5px 8px;border-radius:6px}
+
+/* Footer */
+footer{background:var(--marrom);color:#f3ece3;margin-top:0}
+.foot{max-width:1180px;margin:0 auto;padding:52px 22px;display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between}
+.foot h5{margin:0 0 8px;color:#fff;font-size:15px}
+.foot a{color:var(--amarelo);text-decoration:none}
+.foot p{margin:4px 0;font-size:14px;color:#e6dccf}
+.foot .upd{font-size:13px;color:#c9bba9}
+
+@media(max-width:820px){
+ nav.top{display:none;position:fixed;top:59px;left:0;right:0;background:#fff;flex-direction:column;gap:0;padding:8px;border-bottom:1px solid var(--line);box-shadow:0 12px 24px rgba(0,0,0,.08)}
+ nav.top.open{display:flex}
+ nav.top a{padding:12px}
+ .menu-btn{display:block}
+ .type-grid,.rules{grid-template-columns:1fr}
+ .diamond{opacity:.12}
+}
+</style>
+</head>
+<body>
+<header><div class="bar">
+  <a class="brand" href="#top"><img src="assets/logos/institucional/bsca-pt-colorida.png" alt="BSCA"></a>
+  <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('nav.top').classList.toggle('open')">☰</button>
+  <nav class="top"><a href="#marca">A marca</a><a href="#institucional">Institucional</a><a href="#academy">BSCA Academy</a><a href="#cores">Cores</a><a href="#tipografia">Tipografia</a><a href="#usos">Usos</a><a href="#downloads">Downloads</a></nav>
+</div></header>
+
+<a id="top"></a>
+<section class="hero"><div class="diamond"></div><div class="diamond two"></div>
+ <div class="hero-inner">
+  <p class="eyebrow">Central da Marca</p>
+  <h1>A identidade visual da BSCA em um só lugar</h1>
+  <p class="sub">Baixe as versões oficiais dos logos da Associação Brasileira de Cafés Especiais.</p>
+  <div class="cta"><a class="btn" href="assets/downloads/pacotes/BSCA_Todas_as_Marcas.zip" download>Baixar todas as marcas (.zip)</a>
+   <a class="btn ghost" href="#institucional">Ver logos</a></div>
+ </div>
+</section>
+
+<main>
+
+<section id="marca" class="sec">
+ <div class="sec-head"><p class="eyebrow">Identidade</p><h2>Um losango, um grão, o Brasil</h2>
+  <p class="lead">O símbolo da BSCA une o losango da bandeira brasileira aos grão de café especial (Arabica e Canephora), dentro de um bloco de dois tons de verde. É a base de toda a nossa identidade: aplique-o com respeito à área de reserva, às cores oficiais e às versões disponibilizadas aqui.</p>
+ </div>
+ <div class="rules">
+  <div class="rule"><strong>Promover os cafés especiais do Brasil</strong>, criando conexões entre todos os participantes da cadeia — do produtor ao consumidor final.</div>
+  <div class="rule"><strong>Valores:</strong> excelência e qualidade, sustentabilidade, inovação, ética e transparência, valorização das pessoas, orgulho brasileiro, colaboração e educação.</div>
+ </div>
+</section>
+
+<section id="institucional" class="sec">
+<div class="sec-head"><p class="eyebrow">Marcas</p><h2>Marca Institucional</h2><p class="lead">A assinatura principal da BSCA, disponível em português e inglês (BSCA Brazil). Priorize sempre a versão colorida positiva.</p><a class="btn" href="assets/downloads/pacotes/BSCA_Institucional.zip" download>Baixar pacote Marca Institucional (.zip)</a></div>
+<h3 class="grp">Assinatura completa (PT)</h3><div class="grid"><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/institucional/bsca-pt-colorida.png" alt="Assinatura PT — Colorida"></div><figcaption><span class="cap">Assinatura PT — Colorida</span><a class="dl" href="assets/logos/institucional/bsca-pt-colorida.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/institucional/bsca-pt-verde.png" alt="Assinatura PT — Verde"></div><figcaption><span class="cap">Assinatura PT — Verde</span><a class="dl" href="assets/logos/institucional/bsca-pt-verde.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/institucional/bsca-pt-amarelo.png" alt="Assinatura PT — Amarela"></div><figcaption><span class="cap">Assinatura PT — Amarela</span><a class="dl" href="assets/logos/institucional/bsca-pt-amarelo.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/institucional/bsca-pt-marrom.png" alt="Assinatura PT — Marrom"></div><figcaption><span class="cap">Assinatura PT — Marrom</span><a class="dl" href="assets/logos/institucional/bsca-pt-marrom.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/institucional/bsca-pt-preta.png" alt="Assinatura PT — Preta"></div><figcaption><span class="cap">Assinatura PT — Preta</span><a class="dl" href="assets/logos/institucional/bsca-pt-preta.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile dark"><img loading="lazy" src="assets/logos/institucional/bsca-pt-branca.png" alt="Assinatura PT — Branca"></div><figcaption><span class="cap">Assinatura PT — Branca</span><a class="dl" href="assets/logos/institucional/bsca-pt-branca.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure></div>
+<h3 class="grp">Assinatura completa (EN)</h3><div class="grid"><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/institucional/bsca-en-colorida.png" alt="Assinatura EN — Colorida"></div><figcaption><span class="cap">Assinatura EN — Colorida</span><a class="dl" href="assets/logos/institucional/bsca-en-colorida.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/institucional/bsca-en-verde.png" alt="Assinatura EN — Verde"></div><figcaption><span class="cap">Assinatura EN — Verde</span><a class="dl" href="assets/logos/institucional/bsca-en-verde.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/institucional/bsca-en-amarelo.png" alt="Assinatura EN — Amarela"></div><figcaption><span class="cap">Assinatura EN — Amarela</span><a class="dl" href="assets/logos/institucional/bsca-en-amarelo.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/institucional/bsca-en-marrom.png" alt="Assinatura EN — Marrom"></div><figcaption><span class="cap">Assinatura EN — Marrom</span><a class="dl" href="assets/logos/institucional/bsca-en-marrom.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure></div>
+</section>
+
+<section id="academy" class="sec">
+<div class="sec-head"><p class="eyebrow">Marcas</p><h2>BSCA Academy</h2><p class="lead">A marca da frente de educação e capacitação da BSCA. Use a versão colorida como preferencial; as monocromáticas atendem fundos e restrições específicas.</p><a class="btn" href="assets/downloads/pacotes/BSCA_Academy.zip" download>Baixar pacote BSCA Academy (.zip)</a></div>
+<h3 class="grp">BSCA Academy</h3><div class="grid"><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/academy/academy-colorida.png" alt="BSCA Academy — Colorida"></div><figcaption><span class="cap">BSCA Academy — Colorida</span><a class="dl" href="assets/logos/academy/academy-colorida.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/academy/academy-simbolo-colorido.png" alt="BSCA Academy — Símbolo colorido"></div><figcaption><span class="cap">BSCA Academy — Símbolo colorido</span><a class="dl" href="assets/logos/academy/academy-simbolo-colorido.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/academy/academy-verde.png" alt="BSCA Academy — Verde"></div><figcaption><span class="cap">BSCA Academy — Verde</span><a class="dl" href="assets/logos/academy/academy-verde.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/academy/academy-amarela.png" alt="BSCA Academy — Amarela"></div><figcaption><span class="cap">BSCA Academy — Amarela</span><a class="dl" href="assets/logos/academy/academy-amarela.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/academy/academy-azul.png" alt="BSCA Academy — Azul"></div><figcaption><span class="cap">BSCA Academy — Azul</span><a class="dl" href="assets/logos/academy/academy-azul.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile"><img loading="lazy" src="assets/logos/academy/academy-preta.png" alt="BSCA Academy — Preta"></div><figcaption><span class="cap">BSCA Academy — Preta</span><a class="dl" href="assets/logos/academy/academy-preta.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure><figure class="card"><div class="tile dark"><img loading="lazy" src="assets/logos/academy/academy-branca.png" alt="BSCA Academy — Branca"></div><figcaption><span class="cap">BSCA Academy — Branca</span><a class="dl" href="assets/logos/academy/academy-branca.png" download title="Baixar PNG">PNG ↓</a></figcaption></figure></div>
+</section>
+
+<section id="cores" class="sec">
+ <div class="sec-head"><p class="eyebrow">Identidade Visual</p><h2>Cores</h2>
+  <p class="lead">O verde e o amarelo são os protagonistas, apoiados pelo marrom do grão. Os valores abaixo foram extraídos dos arquivos oficiais — confirme os equivalentes Pantone/CMYK no manual antes de imprimir.</p></div>
+ <div class="sws"><div class="sw"><div class="chip" style="background:#407850"></div><div class="sw-body"><strong>Verde BSCA</strong><code>#407850</code><span>R64 G120 B80</span><span>C90 M0 Y100 K45 · aprox.</span><span>Pantone 7733 C (aprox.)</span></div></div><div class="sw"><div class="chip" style="background:#F8A840"></div><div class="sw-body"><strong>Amarelo BSCA</strong><code>#F8A840</code><span>R248 G168 B64</span><span>C0 M35 Y80 K0 · aprox.</span><span>Pantone 1365 C (aprox.)</span></div></div><div class="sw"><div class="chip" style="background:#604028"></div><div class="sw-body"><strong>Marrom BSCA</strong><code>#604028</code><span>R96 G64 B40</span><span>C40 M60 Y75 K55 · aprox.</span><span>Pantone 4625 C (aprox.)</span></div></div><div class="sw"><div class="chip" style="background:#0048A8"></div><div class="sw-body"><strong>Azul (apoio)</strong><code>#0048A8</code><span>R0 G72 B168</span><span>C100 M75 Y0 K10 · aprox.</span><span>Pantone 2945 C (aprox.)</span></div></div><div class="sw"><div class="chip" style="background:#222222"></div><div class="sw-body"><strong>Preto</strong><code>#222222</code><span>R34 G34 B34</span><span>C0 M0 Y0 K90</span><span>—</span></div></div><div class="sw"><div class="chip" style="background:#FFFFFF"></div><div class="sw-body"><strong>Branco</strong><code>#FFFFFF</code><span>R255 G255 B255</span><span>C0 M0 Y0 K0</span><span>—</span></div></div></div>
+</section>
+
+<section id="tipografia" class="sec">
+ <div class="sec-head"><p class="eyebrow">Identidade Visual</p><h2>Tipografia</h2>
+  <p class="lead">Duas famílias sustentam a comunicação da BSCA: <strong>Posterama</strong> para títulos e destaques, e <strong>Poppins</strong> para textos e apoio. (Esta página usa Poppins; a Posterama deve ser usada nas artes finais.)</p></div>
+ <div class="type-grid">
+  <div class="type-card"><p class="big font-poppins">Aa</p><p class="name">Posterama — Títulos</p><p class="note">Fonte de exibição. Peso forte, caráter geométrico. Use em manchetes e chamadas.</p></div>
+  <div class="type-card"><p class="big font-poppins" style="font-weight:500">Aa</p><p class="name">Poppins — Texto</p><p class="note">ABCDEFGHIJKLMNOPQRSTUVWXYZ · abcdefghijklmnopqrstuvwxyz · 1234567890</p></div>
+ </div>
+</section>
+
+<section id="usos" class="sec">
+ <div class="sec-head"><p class="eyebrow">Boas práticas</p><h2>Usos incorretos</h2>
+  <p class="lead">Para garantir a consistência da marca, utilize apenas os arquivos originais desta central. Nunca recrie, distorça ou recolora o logo.</p></div>
+ <div class="donts"><figure class="dont"><div class="tile"><img src="assets/logos/institucional/bsca-pt-colorida.png" style="transform:scaleX(1.6)" alt=""></div><figcaption>✕ Não distorça</figcaption></figure><figure class="dont"><div class="tile"><img src="assets/logos/institucional/bsca-pt-colorida.png" style="transform:rotate(14deg)" alt=""></div><figcaption>✕ Não gire</figcaption></figure><figure class="dont"><div class="tile"><img src="assets/logos/institucional/bsca-pt-colorida.png" style="filter:hue-rotate(180deg) saturate(2)" alt=""></div><figcaption>✕ Não altere as cores</figcaption></figure><figure class="dont"><div class="tile"><img src="assets/logos/institucional/bsca-pt-colorida.png" style="filter:drop-shadow(6px 8px 0 rgba(0,0,0,.5))" alt=""></div><figcaption>✕ Não aplique sombra</figcaption></figure><figure class="dont"><div class="tile"><img src="assets/logos/institucional/bsca-pt-colorida.png" style="transform:scaleY(1.7)" alt=""></div><figcaption>✕ Não deforme</figcaption></figure><figure class="dont"><div class="tile"><img src="assets/logos/institucional/bsca-pt-colorida.png" style="filter:grayscale(1) opacity(.28)" alt=""></div><figcaption>✕ Não use baixo contraste</figcaption></figure></div>
+</section>
+
+<section id="downloads" class="sec">
+ <div class="sec-head"><p class="eyebrow">Área de downloads</p><h2>Pacotes e manuais</h2>
+  <p class="lead">Baixe os conjuntos completos de cada marca ou os manuais de marca em PDF.</p></div>
+ <div class="dl-grid">
+  <div class="pack"><h4>Todas as marcas</h4><p>Institucional + Academy, organizados por pasta.</p><a class="btn" href="assets/downloads/pacotes/BSCA_Todas_as_Marcas.zip" download>Baixar .zip</a></div>
+  <div class="pack"><h4>Marca Institucional</h4><p>Assinaturas PT e EN, em todas as cores.</p><a class="btn" href="assets/downloads/pacotes/BSCA_Institucional.zip" download>Baixar .zip</a></div>
+  <div class="pack"><h4>BSCA Academy</h4><p>Todas as variações de cor.</p><a class="btn" href="assets/downloads/pacotes/BSCA_Academy.zip" download>Baixar .zip</a></div>
+ </div>
+ <div class="docs"><a class="doc" href="assets/downloads/manuais/BSCA - Marca BSCA - Membros.pdf" target="_blank" rel="noopener"><span class="doc-ico">PDF</span><span>BSCA - Marca BSCA - Membros</span></a><a class="doc" href="assets/downloads/manuais/BSCA Academy 2026.pdf" target="_blank" rel="noopener"><span class="doc-ico">PDF</span><span>BSCA Academy 2026</span></a><a class="doc" href="assets/downloads/manuais/Guia Visual Digital - BSCA_EXCLUSIVO REDES SOCIAIS E CONTEÚDO DIGITAL.pdf" target="_blank" rel="noopener"><span class="doc-ico">PDF</span><span>Guia Visual Digital - BSCA_EXCLUSIVO REDES SOCIAIS E CONTEÚDO DIGITAL</span></a><a class="doc" href="assets/downloads/manuais/Página de Apresentação - BSCA Academy.pdf" target="_blank" rel="noopener"><span class="doc-ico">PDF</span><span>Página de Apresentação - BSCA Academy</span></a></div>
+</section>
+
+</main>
+
+<footer><div class="foot">
+  <div><h5>Central da Marca BSCA</h5><p>Associação Brasileira de Cafés Especiais</p><p class="upd">Espaço administrado pelo Time de Marketing da BSCA.</p></div>
+  <div><h5>Contato</h5><p>Renan Freitas — Coordenador de Marketing</p><p><a href="mailto:marketing@bsca.com.br">marketing@bsca.com.br</a></p><p>+55 35 99203-1256</p></div>
+  <div><h5>Uso da marca</h5><p>Utilize sempre os arquivos originais desta central.</p><p class="upd">Em caso de dúvida sobre aplicação, fale com o time de Marketing.</p></div>
+</div></footer>
+</body>
+</html>
